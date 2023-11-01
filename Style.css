@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bar{
+    width: 100%;
+    height: 35px;
+    background: #7752FE;
+}
+.bar p{
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+.first{
+    background: #f2f3fc;
+    display: flex;
+
+
+}
+.first ul{
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+.first ul li{
+    padding: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    
+    margin: 0px;
+    padding: 5px 0px 0px 5px;
+}
+ .butt button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 15px;
+    color:black;
+    border-color: rgba(176, 107, 241, 0.817);
+    background: white;
+}
+.butt{
+    margin-left: 10px;
+}
+.butt .log{
+    background: rgb(102, 116,204);
+    border-color: none;
+    
+}
+button:hover{
+    color: whitesmoke;
+}
+.second{
+    
+    display: flex;
+    justify-content: center;
+
+
+}
+.second img{
+    height: 350px;
+    margin: 50px 0px 0px 200px ;
+}
+.P1{
+    margin-top: 100px;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 600;
+}
+span{
+    color: #7752FE;
+}
+.P2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.wrapper .button3{
+    border: #7752FE;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f2f3fc;
+    background:#7752FE;
+}
+.wrapper .button4{
+    border:2px solid #7752FE;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background:white;
+}
+/* .button3{
+    position: relative;
+    top: 300px; 
+    right: 250px;  
+}
+.button4{
+    position: relative;
+    top: 300px;
+    right: 250px;
+
+} */
+@media (min-width:400px) and (max-width:200px){
+    bar{
+        width: 100%;
+        height: 15px;
+        background: #7752FE;
+    }
+    .bar p{
+        padding: 5px;
+        text-align: center;
+        color: aliceblue;
+        font-size: small;
+    }
+    .first{
+        background: #f2f3fc;
+        display: flex;
+        width: 100%;
+        height: 50px;
+    }
+    .first ul{
+        list-style: none;
+        display: inline-flex;
+        margin-left: 10px;
+        padding:2px;
+        font-size: x-small;
+    }
+    .logo {
+    
+        margin: 5px;
+        padding: 2px 0px 0px 2px;
+        display: flex;
+    }
+    .logo img{
+        height: 25px;
+        text-align: center;
+        justify-content: center;
+    }
+    .butt button{
+        width: 55px;
+        height: 20px;
+        border-radius: 5px;
+        margin: 5px 0px 10px 0px;
+        color:black;
+        border-color: rgba(176, 107, 241, 0.817);
+        background: white;
+        font-size: x-small;
+    }
+    .second{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .second .wrapper{
+        text-align: center;
+    }
+    .second img{
+        height: 200px;
+        margin-left: 60px;
+    }
+    .P1{
+        margin-top: 30px;
+    
+        font-family: cursive;
+        font-size: 35px;
+        font-weight: 100;
+    }
+    .P2{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+    .wrapper .button3{
+        padding: 7px;
+        font-size: x-small;
+    }
+    .wrapper .button4{
+        padding: 7px;
+        font-size: x-small;
+    }
+
+}
+@media(max-width:401px) and (min-width:600px)
